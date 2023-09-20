@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#home{
+    font-family: "General sans medium";
+    width: 100%;
+    height: 100vh; /*vh is view height*/
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#nav{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#heading{
+    margin-top: 90px;
+    margin-left:30px;
+}
+
+
+#heading h1{
+    margin-left: 10px;
+    font-size: 10vw; /* vw is viewwidth */
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: 0.6;
+    line-height: 1;  /*Line height is used for the spache between the h1 tags in heading*/
+}
+#heading #sh1{
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+#block{
+    width: fit-content;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+#bkl{
+
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#sideline{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 1vw;
+    text-align: right;
+    font-size: 1vw;
+}
+#headfooter{
+    font-weight: lighter;
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    text-transform: uppercase;
+}
+#headfooter a {
+    color: white;
+}
+#headfooter #icons{
+    display: flex;
+    gap: 5px;
+}
+#headfooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+#secpage{
+    padding-right: 10vw;
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 2vw;
+    padding-right: 0;
+    width: 100%;
+    border-top: 1px solid rgb(190, 190, 190);
+    color: white;
+    font-size: 2vw;
+    opacity: 0.7;
+}
+
+#secpage .elem h1 { 
+    position: relative;
+    background-position-x: left;
+    background: scroll;
+    background-position: 20;
+}
+
+#secpage .elem h6 { 
+    font-size: 15px;
+    position: relative;
+}
+#secpage .elemlast{
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.elem img{
+    opacity: 0;
+    height: 250%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 40%;
+}
+
+#about{
+    padding: 10vw 5vw;
+    padding-left: 20vw;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#about #aboutimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#about #abouttext{
+    color: white;
+    line-height: 1.8;
+    size: 2rem;
+
+}
+
+#about #abouttext h6{
+    text-transform: uppercase;
+    opacity: 0.8; 
+}
+
+#about #abouttext  button{
+    border-radius: 30px;
+}
+
+#smsides{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 20px 30px;
+}
+
+#smsides #lines{
+    color: white;
+    opacity: 0.6;
+}
+
+#smsides #yts{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+#footer{
+    padding-top: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer a{
+    color: white;
+}
+#leftfooter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#rightfooter{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#minicircle{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 99999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.board{
+    width: fit-content;
+    overflow: hidden;
+}
+.boardelem{
+    transform: translatey(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
